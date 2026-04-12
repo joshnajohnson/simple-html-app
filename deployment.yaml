@@ -26,8 +26,8 @@ metadata:
 spec:
   type: NodePort
   selector:
-      app: html-demo
+    app: html-demo
   ports:
   - port: 90
-    targetPort: 9000
+    targetPort: 90
     nodePort: 30010
